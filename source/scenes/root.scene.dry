@@ -1,11 +1,14 @@
-title: Root Scene
+title: Commencement
 new-page: true
 
-This is the root scene of "Dendry-starter-pack". The root scene is normally used
-as a hub: the choices allow you to go to different sections of your
-story. In shorter works it may just function as the first scene in the
-game, sending the player off into the tree of choices. If the root
-scene doesn't have any choices that it can display, the game is over.
+Bienvenue au Centro Politico! Vous êtes le Notable Ghosti, rattaché à la Fédération Travailliste.
+Certaines de vos suspicions se confirment:
+votre arch-némésis, le remortel Cataline, semble planifier une prise du pouvoir afin d'instaurer la tyrannie.
+Par voie légaliste ou par la force.
+De multiples crises vont se succéder qui vont mettre à mal la méritocratie massilienne.
+Saurez-vous la sauver et empêcher Cataline de prendre le pouvoir?
+
+- @continuer: Sauvons Massilia!
 
 # Scenes with a top tag can be displayed here.
 - #top
