@@ -15,11 +15,12 @@ Votre Fédération comporte plusieurs personnalités de renom. Voici celles qui 
 - @croissant : Croissant De La Luna
 - @conwise : Helen Conwise
 - @descontes : Arturo Descontes
+- @enemies : Qui sont mes adversaires?
 
 @croissant
 new-page: false
 on-arrival: croissant = "seen"
-go-to: @allies
+go-to: @allies-back
 
 Croissant De La Luna, le Bourgmestre dirigeant de l'Archipel. Figure de confiance et symbole de stabilité, le Bourgmestre jouït
 d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
@@ -29,7 +30,7 @@ d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
 @conwise
 new-page: false
 on-arrival: conwise = "seen"
-go-to: @allies
+go-to: @allies-back
 
 Helen Conwise, remortelle, Ministre des Armées. Érudite et extrêmement populaire au sein de sa garde, la fondatrice de votre Fédération
 veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, si nécessaire.
@@ -39,7 +40,29 @@ veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, s
 @descontes
 new-page: false
 on-arrival: descontes = "seen"
-go-to: @allies
+go-to: @allies-back
 
 Arturo Descontes, Ministre des Affaires Commerciales. Excentrique, le ministre propose des réformes révolutionnaires radicales. Malgré son
 opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est rempart contre la tyrannie.
+
+@allies-back
+
+- @allies : Continue...
+
+@enemies
+new-page: true
+view-if: croissant = "seen" and conwise = "seen" and descontes = "seen"
+
+La Fédération Conservatrice prône la rupture des relations diplomatiques avec l'Ordre, une justice intraitable et la privatisation
+des services publics. Bien que la fédération ne soit pas foncièrement une menace pour Massilia, Cataline semble vouloir l'utiliser
+comme Cheval de Tr'hon'oie à ses propres fins.
+
+Voici les personnalités qui composent le ministère.
+
+Archibald Deloiseau, le Ministre de la Diplomatie, en est le fondateur. Frondeur, révolté suite au décès de son fils, son profil constitue
+une ligne intransigeante vis à vis de l'Ordre et plutôt autoritaire sur le plan intérieur.
+
+Alberto Poni'hon, le Ministre de l'Économie. Moins dur et moins concerné par l'intransigeance envers l'Ordre, Poni'hon souhaite cependant
+s'attaquer aux mesures socialistes et imposer de lourdes politiques d'austérité.
+
+Cataline n'est pour l'instant que Secrétaire au Ministère de la Diplomatie. Mais en restera-t'il encore longtemps ainsi?
