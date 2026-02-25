@@ -57,35 +57,3 @@ des services publics. Bien que la fédération ne soit pas foncièrement une men
 comme Cheval de Tr'hon'oie à ses propres fins.
 
 Voici les personnalités qui composent le ministère.
-
-- @deloiseau : Archibald Deloiseau
-- @ponihon: Alberto Poni'hon
-- @cataline : Cataline
-
-@descontes
-new-page: false
-on-arrival: deloiseau = "seen"
-go-to: @enemies-back
-
-Archibald Deloiseau, le Ministre de la Diplomatie, en est le fondateur. Frondeur, révolté suite au décès de son fils, son profil constitue
-une ligne intransigeante vis à vis de l'Ordre et plutôt autoritaire sur le plan intérieur.
-
-@ponihon
-new-page: false
-on-arrival: ponihon = "seen"
-go-to: @enemies-back
-
-Alberto Poni'hon, le Ministre de l'Économie. Moins dur et moins concerné par l'intransigeance envers l'Ordre, Poni'hon souhaite cependant
-s'attaquer aux mesures socialistes et imposer de lourdes politiques d'austérité.
-
-@cataline
-new-page: false
-on-arrival: cataline = "seen"
-go-to: @enemies-back
-
-Cataline n'est pour l'instant que Secrétaire au Ministère de la Diplomatie. Mais vous devez absolument l'écarter du pouvoir.
-Par dessus tout, c'est la seule chose qu'il cherche.
-
-@enemies-back
-
-- @enemies : Continue...
