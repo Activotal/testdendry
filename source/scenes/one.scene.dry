@@ -49,7 +49,7 @@ opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est 
 - @enemies : Qui sont mes adversaires?
 
 @enemies
-new-page: false
+new-page: true
 view-if: croissant = "seen" and conwise = "seen" and descontes = "seen"
 
 La Fédération Conservatrice prône la rupture des relations diplomatiques avec l'Ordre, une justice intraitable et la privatisation
