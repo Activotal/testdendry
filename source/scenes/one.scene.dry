@@ -25,8 +25,6 @@ go-to: @allies-back
 Croissant De La Luna, le Bourgmestre dirigeant de l'Archipel. Figure de confiance et symbole de stabilité, le Bourgmestre jouït
 d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
 
-@one
-
 @conwise
 new-page: false
 on-arrival: conwise = "seen"
@@ -34,8 +32,6 @@ go-to: @allies-back
 
 Helen Conwise, remortelle, Ministre des Armées. Érudite et extrêmement populaire au sein de sa garde, la fondatrice de votre Fédération
 veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, si nécessaire.
-
-@one
 
 @descontes
 new-page: false
