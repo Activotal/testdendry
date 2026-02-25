@@ -14,7 +14,7 @@ Votre Fédération comporte plusieurs personnalités de renom. Voici celles qui 
 
 - @croissant : Croissant De La Luna
 - @conwise : Helen Conwise
-- @descontes : Arturo Descontes
+- @descontes : Arthuro Descontes
 - @enemies : Qui sont mes adversaires?
 
 @croissant
@@ -41,14 +41,14 @@ choose-if: descontes != "seen"
 on-arrival: descontes = "seen"
 go-to: @allies-back
 
-Arturo Descontes, Ministre des Affaires Commerciales. Excentrique, le ministre propose des réformes révolutionnaires radicales. Malgré son
+Arthuro Descontes, Ministre des Affaires Commerciales. Excentrique, le ministre propose des réformes révolutionnaires radicales. Malgré son
 opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est rempart contre la tyrannie.
 
 @allies-back
 
 - @croissant : Croissant De La Luna
 - @conwise : Helen Conwise
-- @descontes : Arturo Descontes
+- @descontes : Arthuro Descontes
 - @enemies : Qui sont mes adversaires?
 
 @enemies
