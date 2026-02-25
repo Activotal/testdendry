@@ -43,10 +43,7 @@ opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est 
 
 @allies-back
 
-- @croissant : Croissant De La Luna
-- @conwise : Helen Conwise
-- @descontes : Arturo Descontes
-- @enemies : Qui sont mes adversaires?
+- @allies : Continue...
 
 @enemies
 new-page: true
@@ -89,10 +86,7 @@ Par dessus tout, c'est la seule chose qu'il cherche.
 
 @enemies-back
 
-- @deloiseau : Archibald Deloiseau
-- @ponihon: Alberto Poni'hon
-- @cataline : Cataline
-- @suite : Et maintenant?
+- @enemies : Continue...
 
 @suite
 new-page: true
