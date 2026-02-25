@@ -19,7 +19,7 @@ Votre Fédération comporte plusieurs personnalités de renom. Voici celles qui 
 @croissant
 new-page: false
 on-arrival: croissant = "seen"
-go-to: @one
+go-to: @allies
 
 Croissant De La Luna, le Bourgmestre dirigeant de l'Archipel. Figure de confiance et symbole de stabilité, le Bourgmestre jouït
 d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
@@ -29,7 +29,7 @@ d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
 @conwise
 new-page: false
 on-arrival: conwise = "seen"
-go-to: @one
+go-to: @allies
 
 Helen Conwise, remortelle, Ministre des Armées. Érudite et extrêmement populaire au sein de sa garde, la fondatrice de votre Fédération
 veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, si nécessaire.
@@ -39,9 +39,7 @@ veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, s
 @descontes
 new-page: false
 on-arrival: descontes = "seen"
-go-to: @one
+go-to: @allies
 
 Arturo Descontes, Ministre des Affaires Commerciales. Excentrique, le ministre propose des réformes révolutionnaires radicales. Malgré son
 opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est rempart contre la tyrannie.
-
-@one
