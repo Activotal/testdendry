@@ -61,9 +61,9 @@ comme Cheval de Tr'hon'oie à ses propres fins.
 
 Voici les personnalités qui composent le ministère,
 
-@deloiseau : Archibald Deloiseau
-@ponihon: Alberto Poni'hon
-@cataline : Cataline
+- @deloiseau : Archibald Deloiseau
+- @ponihon: Alberto Poni'hon
+- @cataline : Cataline
 
 @deloiseau
 new-page: false
@@ -94,10 +94,10 @@ Par dessus tout, c'est la seule chose qu'il cherche.
 
 @enemies-back
 
-@deloiseau : Archibald Deloiseau
-@ponihon: Alberto Poni'hon
-@cataline : Cataline
-@suite : Et maintenant?
+- @deloiseau : Archibald Deloiseau
+- @ponihon: Alberto Poni'hon
+- @cataline : Cataline
+- @suite : Et maintenant?
 
 @suite
 new-page: true
@@ -105,7 +105,7 @@ view-if: deloiseau = "seen" and ponihon = "seen" and cataline = "seen"
 
 Bien d'autres acteurs jouerons un rôle dans les évènements que vous allez affronter. Vous allez devoir équilibrer vos relations avec l'Ordre,
 ainsi que votre popularité auprès de votre base militante et de la population. Certains alliés vous seront plus utiles que d'autres. Certains
-risquent de vous tourner le dos. Au contraire, certains adversaires pourraient vous tendre une main tendue que vous pourrez saisir ou non.
+risquent de vous tourner le dos. Au contraire, certains adversaires pourraient vous tendre une main tendue, que vous pourrez saisir ou non.
 
 Mais dans tout les cas, il faut pour vous ne retenir qu'une chose:
 
