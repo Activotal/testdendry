@@ -40,16 +40,6 @@ go-to: @one
 Arturo Descontes, Ministre des Affaires Commerciales. Excentrique, le ministre propose des réformes révolutionnaires radicales. Malgré son
 opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est rempart contre la tyrannie.
 
-@croissant
-new-page: false
-go-to: @one
-
-- @enemies : Qui sont mes adversaires?
-
-@enemies
-new-page: false
-view-if: croissant = "seen" and conwise = "seen" and descontes = "seen"
-
 La Fédération Conservatrice prône la rupture des relations diplomatiques avec l'Ordre, une justice intraitable et la privatisation
 des services publics. Bien que la fédération ne soit pas foncièrement une menace pour Massilia, Cataline semble vouloir l'utiliser
 comme Cheval de Tr'hon'oie à ses propres fins.
