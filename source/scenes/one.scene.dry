@@ -12,6 +12,8 @@ new-page: false
 
 Votre Fédération comporte plusieurs personnalités de renom. Voici celles qui composent le ministère.
 
+@allies-choices
+
 - @croissant : Croissant De La Luna
 - @conwise : Helen Conwise
 - @descontes : Arturo Descontes
@@ -43,7 +45,7 @@ opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est 
 
 @allies-back
 
-- @allies : Continue...
+- @allies-choices : Continue...
 
 @enemies
 new-page: true
@@ -55,10 +57,37 @@ comme Cheval de Tr'hon'oie à ses propres fins.
 
 Voici les personnalités qui composent le ministère.
 
+@enemies-choices
+
+- @deloiseau : Archibald Deloiseau
+- @ponihon: Alberto Poni'hon
+- @cataline : Cataline
+- @enemies : Et maintenant?
+
+@descontes
+new-page: false
+on-arrival: deloiseau = "seen"
+go-to: @enemies-back
+
 Archibald Deloiseau, le Ministre de la Diplomatie, en est le fondateur. Frondeur, révolté suite au décès de son fils, son profil constitue
 une ligne intransigeante vis à vis de l'Ordre et plutôt autoritaire sur le plan intérieur.
+
+@ponihon
+new-page: false
+on-arrival: ponihon = "seen"
+go-to: @enemies-back
 
 Alberto Poni'hon, le Ministre de l'Économie. Moins dur et moins concerné par l'intransigeance envers l'Ordre, Poni'hon souhaite cependant
 s'attaquer aux mesures socialistes et imposer de lourdes politiques d'austérité.
 
-Cataline n'est pour l'instant que Secrétaire au Ministère de la Diplomatie. Mais en restera-t'il encore longtemps ainsi?
+@cataline
+new-page: false
+on-arrival: cataline = "seen"
+go-to: @enemies-back
+
+Cataline n'est pour l'instant que Secrétaire au Ministère de la Diplomatie. Mais vous devez absolument l'écarter du pouvoir.
+Par dessus tout, c'est la seule chose qu'il cherche.
+
+@enemies-back
+
+- @enemies-choices : Continue...
