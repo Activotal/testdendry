@@ -24,6 +24,8 @@ go-to: @one
 Croissant De La Luna, le Bourgmestre dirigeant de l'Archipel. Figure de confiance et symbole de stabilité, le Bourgmestre jouït
 d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
 
+@one
+
 @conwise
 new-page: false
 on-arrival: conwise = "seen"
@@ -32,6 +34,8 @@ go-to: @one
 Helen Conwise, remortelle, Ministre des Armées. Érudite et extrêmement populaire au sein de sa garde, la fondatrice de votre Fédération
 veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, si nécessaire.
 
+@one
+
 @descontes
 new-page: false
 on-arrival: descontes = "seen"
@@ -39,6 +43,14 @@ go-to: @one
 
 Arturo Descontes, Ministre des Affaires Commerciales. Excentrique, le ministre propose des réformes révolutionnaires radicales. Malgré son
 opposition à l'existence du Conseil, s'il y a bien une chose qu'il sera, c'est rempart contre la tyrannie.
+
+@one
+
+- @enemies : Qui sont mes adversaires?
+
+@enemies
+new-page: false
+view-if: croissant = "seen" and conwise = "seen" and descontes = "seen"
 
 La Fédération Conservatrice prône la rupture des relations diplomatiques avec l'Ordre, une justice intraitable et la privatisation
 des services publics. Bien que la fédération ne soit pas foncièrement une menace pour Massilia, Cataline semble vouloir l'utiliser
