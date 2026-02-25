@@ -1,6 +1,8 @@
 title: Récapitulatif
 new-page: true
 
+Vous êtes Ghosti, membre respecté et respectable de l'Ordre d'Herobrine, et Notable du Conseil, l'organe politique qui dirige l'Archipel
+
 La Fédération Travailliste, dont vous faites partie, constitue la Fédération politique faiblement majoritaire de l'Archipel.
 Elle oeuvre en faveur de politiques sociales étendues et de relations positives avec l'Ordre d'Herobrine,
 dont elle est Protectorat.
@@ -89,7 +91,8 @@ choose-if: cataline != "seen"
 on-arrival: cataline = "seen"
 go-to: @enemies-back
 
-Cataline n'est pour l'instant que Secrétaire au Ministère de la Diplomatie. Mais vous devez absolument l'écarter du pouvoir.
+Cataline est apprenti de l'Ordre, pour on-ne-sait quelle raison.
+Il n'est pour l'instant que Secrétaire au Ministère de la Diplomatie. Mais vous devez absolument l'écarter du pouvoir.
 Par dessus tout, c'est la seule chose qu'il cherche.
 
 @enemies-back
@@ -103,10 +106,11 @@ Par dessus tout, c'est la seule chose qu'il cherche.
 new-page: true
 view-if: deloiseau = "seen" and ponihon = "seen" and cataline = "seen"
 
-Bien d'autres acteurs jouerons un rôle dans les évènements que vous allez affronter. Vous allez devoir équilibrer vos relations avec l'Ordre,
+Bien d'autres acteurs jouerons un rôle dans les évènements que vous allez affronter.
+Vous jouerez septiel par septiel et vous affronterez différentes crises. Vous allez devoir équilibrer vos relations avec l'Ordre,
 ainsi que votre popularité auprès de votre base militante et de la population. Certains alliés vous seront plus utiles que d'autres. Certains
 risquent de vous tourner le dos. Au contraire, certains adversaires pourraient vous tendre une main tendue, que vous pourrez saisir ou non.
 
 Mais dans tout les cas, il faut pour vous ne retenir qu'une chose:
 
-Il ne faut absolument pas que Cataline prenne le pouvoir.
+- @two: Il ne faut absolument pas que Cataline prenne le pouvoir.

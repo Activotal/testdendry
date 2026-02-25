@@ -1,0 +1,29 @@
+title: Affaire militaire
+subtitle: Démarre le jeu
+new-page: true
+
+Les Soleils se lèvent sur Massilia. L'Archipel se reconstruit difficilement, mais sûrement, sur les décombres du cataclysme glacial.
+
+Cataline convie un rendez-vous avec vous et votre compagne Tsuki, coordinatrice des efforts entre les Protecteurs du Lotus et
+la Marine Massilienne, en vue de vous présenter son projet. Cataline prévoit de négocier un contrat d'armement pour moderniser l'équipement
+de la Marine. Il semble avoir besoin de votre aide pour ajuster correctement le cahier des charges.
+
+Vous et votre compagne ne faites pas pleinement confiance à Cataline, mais la Marine apprécierait grandement que le projet aboutisse.
+Souhaitez-vous aider Cataline?
+
+- @oui : Offrons-lui notre expertise pour finaliser le dossier.
+- @non : Cataline peut se débrouiller seul.
+
+@oui
+new-page: false
+
+Grâce à votre aide, le cahier des charges est aboutit rapidement. La commande de réarmement s'ensuit avec succès. La Marine dispose désormais
+d'armes de pointes et Helen Conwise vous adresse ses remerciements. Cataline est félicité pour son exploit par sa Fédération, et renforce ainsi
+sa popularité au sein de celle-ci.
+
+@non
+new-page: false
+
+Nous refusons toute aide à Cataline. Ce dernier patauge et sa dernière ébauche de contrat se voit refusée par les partenaires commerciaux convoité.
+Cataline est embarassé par l'affaire et subit quelques critiques de la part de sa Fédération. Conwise nous critique cependant sur notre manque
+de coopération. La Marine manque cruellement de moyens contre la piraterie, et vous n'avez pas arrangé son cas.
