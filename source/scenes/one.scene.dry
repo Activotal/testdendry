@@ -19,6 +19,7 @@ Votre Fédération comporte plusieurs personnalités de renom. Voici celles qui 
 
 @croissant
 new-page: false
+choose-if: croissant != "seen"
 on-arrival: croissant = "seen"
 go-to: @allies-back
 
@@ -27,6 +28,7 @@ d'une grande popularité, au sein de l'Archipel comme au sein de l'Ordre.
 
 @conwise
 new-page: false
+choose-if: conwise != "seen"
 on-arrival: conwise = "seen"
 go-to: @allies-back
 
@@ -35,6 +37,7 @@ veillera à ce qu'aucun affront à la méritocratie se produise. Par la force, s
 
 @descontes
 new-page: false
+choose-if: descontes != "seen"
 on-arrival: descontes = "seen"
 go-to: @allies-back
 
