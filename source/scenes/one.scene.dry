@@ -65,8 +65,9 @@ Voici les personnalités qui composent le ministère,
 @ponihon: Alberto Poni'hon
 @cataline : Cataline
 
-@descontes
+@deloiseau
 new-page: false
+choose-if: deloiseau != "seen"
 on-arrival: deloiseau = "seen"
 go-to: @enemies-back
 
@@ -75,6 +76,7 @@ une ligne intransigeante vis à vis de l'Ordre et plutôt autoritaire sur le pla
 
 @ponihon
 new-page: false
+choose-if: ponihon != "seen"
 on-arrival: ponihon = "seen"
 go-to: @enemies-back
 
@@ -83,6 +85,7 @@ s'attaquer aux mesures socialistes et imposer de lourdes politiques d'austérit�
 
 @cataline
 new-page: false
+choose-if: cataline != "seen"
 on-arrival: cataline = "seen"
 go-to: @enemies-back
 
@@ -94,3 +97,16 @@ Par dessus tout, c'est la seule chose qu'il cherche.
 @deloiseau : Archibald Deloiseau
 @ponihon: Alberto Poni'hon
 @cataline : Cataline
+@suite : Et maintenant?
+
+@suite
+new-page: true
+view-if: deloiseau = "seen" and ponihon = "seen" and cataline = "seen"
+
+Bien d'autres acteurs jouerons un rôle dans les évènements que vous allez affronter. Vous allez devoir équilibrer vos relations avec l'Ordre,
+ainsi que votre popularité auprès de votre base militante et de la population. Certains alliés vous seront plus utiles que d'autres. Certains
+risquent de vous tourner le dos. Au contraire, certains adversaires pourraient vous tendre une main tendue que vous pourrez saisir ou non.
+
+Mais dans tout les cas, il faut pour vous ne retenir qu'une chose:
+
+Il ne faut absolument pas que Cataline prenne le pouvoir.
